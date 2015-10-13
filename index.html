@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<title> Index page </title>
+		<link href='https://fonts.googleapis.com/css?family=Lobster+Two:400,700italic' rel='stylesheet' type='text/css'>
 	<style>
 		header {
 			text-align: center;
 			background: url("http://i.onionstatic.com/clickhole/2076/original/1200.jpg");
 			background-size: cover;
 			color: white;
+			font-family: 'Lobster Two', cursive;
 		}
 		a {
 			color: cyan;
@@ -13,12 +17,23 @@
 		body {
 			color: cyan;
 			text-align: center;
-			font-family: Helvetica;
+			text-size: 14px;
 			background: url("http://i.onionstatic.com/clickhole/2076/original/1200.jpg");
 			background-size: cover;
 		}
+		div {
+			background-color: #C0C0C0;
+			opacity: 0.8;
+			background-size: cover;
+			position: relative;
+			margin: 40px 0 0 0;
+			border-radius: 12px;
+		}
 		h1 {
 			font-size: 60px;
+		}
+		h2 {
+			text-align: left;
 		}
 		ul {
 			padding: 10px;
@@ -38,26 +53,35 @@
         	display: block;
       		}
     	}
+    	p {
+    		text-align: center;
+    	}
 	</style>
-	<head>
-		<title> Index page </title>
 	</head>
 	<body>
 			<header>
-					<h1>Penguin fanatic</h1>
+					<h1>Penguin Fanatic</h1>
 				<ul>
       				<li><a href="#">About Me</a></li>
       				<li><a href="#">Penguins</a></li>
      				<li><a href="#">Fun facts</a></li>
     </ul>
 	<div>
-		<p style="background-color: grey;">
-			<br>
-			<em>I <strong>really </strong>love penguins</em>
-		</br>
-		<br>
-	</br>
+		<p>
+			<em>I <strong>really</strong> love penguins!</em>
+			<br />
+			<em style="font-size: 20px"> like.. <u>really!</u>
 		</p>
 	</div>
+<div class="Intro">
+  <h2>Introduction</h2>
+  <p><small>Penguins are aquatic, flightless birds that are highly adapted to life in the water. Their distinct tuxedo-like appearance is called countershading, a form of camouflage that helps keep them safe in the water. Penguins do have wing-bones, though they are flipper-like and extremely suited to swimming. Penguins are found almost exclusively in the southern hemisphere, where they catch their food underwater and raise their young on land. </small></p>
+</div>
+
+<div class="Diet">
+  <h2>Diet</h2>
+  <p><small>Staples: Krill, fish and squid.<br />
+  	In general, penguins closer to the equator eat more fish and penguins closer to Antarctica eat more squid and krill.</small></p>
+</div>
 	</body>
 </html>
